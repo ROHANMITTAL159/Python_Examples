@@ -12,14 +12,14 @@ while i>0:
                 j = j + 0
                 k = k + 0
         elif player == "rock":
-                if computer == "scissors":
+                if computer == "scissor":
                         k += 1
                 elif computer == "paper":
                         j += 1
         elif player == "paper":
                 if computer == "rock":
                         k += 1
-                elif computer == "scissors":
+                elif computer == "scissor":
                         j += 1
         elif player == "scissors":
                 if computer == "paper":
